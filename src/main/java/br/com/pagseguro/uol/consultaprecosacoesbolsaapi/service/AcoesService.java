@@ -71,12 +71,17 @@ public class AcoesService {
         try {
             List<Acao> todasAcoes = acoesRepository.findAll();
 
+            if (todasAcoes.size() < 10)
+                throw new BusinessException(ERRORPAGSEG_009, HttpStatus.INTERNAL_SERVER_ERROR);
+
             todasAcoes.sort(Comparator.comparing(Acao::getParticipacao).reversed());
 
             return todasAcoes.subList(
                     INDICE_INICIAL_LISTA_MAIORES_ACOES,
                     INDICE_FINAL_LISTA_MAIORES_ACOES
             );
+        } catch (BusinessException e) {
+            throw e;
         } catch (Exception e) {
             throw new BusinessException(ERRORPAGSEG_006, HttpStatus.INTERNAL_SERVER_ERROR);
         }

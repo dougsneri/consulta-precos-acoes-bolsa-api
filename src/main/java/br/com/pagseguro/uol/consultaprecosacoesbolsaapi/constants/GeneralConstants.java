@@ -17,4 +17,5 @@ public class GeneralConstants {
     public static final String ERRORPAGSEG_006 = "ERRORPAGSEG-006";
     public static final String ERRORPAGSEG_007 = "ERRORPAGSEG-007";
     public static final String ERRORPAGSEG_008 = "ERRORPAGSEG-008";
+    public static final String ERRORPAGSEG_009 = "ERRORPAGSEG-009";
 }

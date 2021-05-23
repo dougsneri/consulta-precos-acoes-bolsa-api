@@ -1,0 +1,32 @@
+[
+  {
+    "codigo_acao": "ABEV3",
+    "nome_acao": "AMBEV S/A ON",
+    "quantidade_teorica": 4355174839,
+    "participacao": 3.10
+  },
+  {
+    "codigo_acao": "ASAI3",
+    "nome_acao": "ASSAI ON NM",
+    "quantidade_teorica": 157635935,
+    "participacao": 0.57
+  },
+  {
+    "codigo_acao": "AZUL4",
+    "nome_acao": "AZUL PN N2",
+    "quantidade_teorica": 327283207,
+    "participacao": 0.61
+  },
+  {
+    "codigo_acao": "BTOW3",
+    "nome_acao": "B2W DIGITAL ON NM",
+    "quantidade_teorica": 201549295,
+    "participacao": 0.58
+  },
+  {
+    "codigo_acao": "B3SA3",
+    "nome_acao": "B3 ON EDJ NM",
+    "quantidade_teorica": 1930877944,
+    "participacao": 4.88
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "codigo_acao": "ABEV3",
+    "nome_acao": "AMBEV S/A ON",
+    "quantidade_teorica": 4355174839,
+    "participacao": 3.10
+  },
+  {
+    "codigo_acao": "ASAI3",
+    "nome_acao": "ASSAI ON NM",
+    "quantidade_teorica": 157635935,
+    "participacao": 0.57
+  },
+  {
+    "codigo_acao": "AZUL4",
+    "nome_acao": "AZUL PN N2",
+    "quantidade_teorica": 327283207,
+    "participacao": 0.61
+  },
+  {
+    "codigo_acao": "BTOW3",
+    "nome_acao": "B2W DIGITAL ON NM",
+    "quantidade_teorica": 201549295,
+    "participacao": 0.58
+  },
+  {
+    "codigo_acao": "B3SA3",
+    "nome_acao": "B3 ON EDJ NM",
+    "quantidade_teorica": 1930877944,
+    "participacao": 4.88
+  },
+  {
+    "codigo_acao": "BBSE3",
+    "nome_acao": "BBSEGURIDADE ON NM",
+    "quantidade_teorica": 671584841,
+    "participacao": 0.75
+  },
+  {
+    "codigo_acao": "BRML3",
+    "nome_acao": "BR MALLS PAR ON NM",
+    "quantidade_teorica": 843728684,
+    "participacao": 0.40
+  },
+  {
+    "codigo_acao": "BBDC3",
+    "nome_acao": "BRADESCO ON EJ N1",
+    "quantidade_teorica": 1147260246,
+    "participacao": 1.23
+  },
+  {
+    "codigo_acao": "BBDC4",
+    "nome_acao": "BRADESCO PN EJ N1",
+    "quantidade_teorica": 4261649634,
+    "participacao": 5.16
+  },
+  {
+    "codigo_acao": "BRAP4",
+    "nome_acao": "BRADESPAR PN EDJ N1",
+    "quantidade_teorica": 222075664,
+    "participacao": 0.69
+  },
+  {
+    "codigo_acao": "BBAS3",
+    "nome_acao": "BRASIL ON NM",
+    "quantidade_teorica": 1283197221,
+    "participacao": 1.79
+  },
+  {
+    "codigo_acao": "BRKM5",
+    "nome_acao": "BRASKEM PNA N1",
+    "quantidade_teorica": 264640575,
+    "participacao": 0.51
+  },
+  {
+    "codigo_acao": "BRFS3",
+    "nome_acao": "BRF SA ON NM",
+    "quantidade_teorica": 811759800,
+    "participacao": 0.94
+  },
+  {
+    "codigo_acao": "BPAC11",
+    "nome_acao": "BTGP BANCO UNT N2",
+    "quantidade_teorica": 263871572,
+    "participacao": 1.21
+  },
+  {
+    "codigo_acao": "CRFB3",
+    "nome_acao": "CARREFOUR BR ON NM",
+    "quantidade_teorica": 391758726,
+    "participacao": 0.43
+  },
+  {
+    "codigo_acao": "CCRO3",
+    "nome_acao": "CCR SA ON NM",
+    "quantidade_teorica": 1115695556,
+    "participacao": 0.68
+  },
+  {
+    "codigo_acao": "CMIG4",
+    "nome_acao": "CEMIG PN N1",
+    "quantidade_teorica": 969723092,
+    "participacao": 0.56
+  },
+  {
+    "codigo_acao": "HGTX3",
+    "nome_acao": "CIA HERING ON NM",
+    "quantidade_teorica": 126186408,
+    "participacao": 0.10
+  },
+  {
+    "codigo_acao": "CIEL3",
+    "nome_acao": "CIELO ON NM",
+    "quantidade_teorica": 1112196638,
+    "participacao": 0.19
+  },
+  {
+    "codigo_acao": "COGN3",
+    "nome_acao": "COGNA ON ON NM",
+    "quantidade_teorica": 1847994874,
+    "participacao": 0.35
+  }
+]
