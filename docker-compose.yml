@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=Senh@um-2
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=acoesbolsa
+  app:
+    container_name: consulta-precos-acoes-bolsa-api
+    image: consulta-precos-acoes-bolsa-api
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresqldb

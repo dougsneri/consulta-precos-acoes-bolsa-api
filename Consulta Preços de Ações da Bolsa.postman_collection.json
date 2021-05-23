@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "6c83e1d7-6fba-4693-b9e3-2e2eb2cf74e5",
+		"name": "Consulta Preços de Ações da Bolsa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar todas as ações",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/listar/acoes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"listar",
+						"acoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar Nova Ação",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo_acao\": \"DOUG\",\r\n    \"nome_acao\": \"Douglas\",\r\n    \"quantidade_teorica\": 444219852,\r\n    \"participacao\": 0.92\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/adicionar/acao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"adicionar",
+						"acao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Ação Por código",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/buscar/acao/codigo/DOUG",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"buscar",
+						"acao",
+						"codigo",
+						"DOUG"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Dez Maiores Ações Com Seus Preços Médios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/listar/acoes/precomedio/dezmaiores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"listar",
+						"acoes",
+						"precomedio",
+						"dezmaiores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Ação Por Código",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/deletar/acao/DOUG",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"deletar",
+						"acao",
+						"DOUG"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Ação Por Nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/buscar/acao/nome/Douglas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"buscar",
+						"acao",
+						"nome",
+						"Douglas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
