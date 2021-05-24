@@ -40,6 +40,3 @@ GET /v1/buscar/acao/nome/{nome} - path param required = nome da ação
 
 DELETE /v1/deletar/acao/{codigo} - path param required = código da ação
 ```
-
-Desenho básico no fluxo, não utilizado nem um pattern específico, apenas à nível de entendimento.
-![DesafioPagSeguro](https://user-images.githubusercontent.com/37805588/119271036-14b90f80-bbd6-11eb-8119-efd6f95bc2ed.png)
